@@ -36,7 +36,7 @@ const footer = () => {
 
   const footerText = document.createElement("a");
   footerText.setAttribute("class", "footer");
-  footerText.setAttribute("href", "#");
+  footerText.setAttribute("href", "https://github.com/ts-oh/kwquotes");
   footerText.textContent = "Github Repo";
 
   return {
